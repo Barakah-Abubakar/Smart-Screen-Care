@@ -13,7 +13,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("👁️ Smart Screen Care")
+st.title("Smart Screen Care")
 st.caption("A personalized eye strain risk & recommendation system")
 st.markdown(
     "**Disclaimer:** This is an educational screening tool, not a medical diagnosis."
@@ -24,7 +24,7 @@ st.divider()
 # -----------------------------------
 # Load & train model (inside app)
 # -----------------------------------
-data = pd.read_csv("eye_strain_dataset.csv")
+data = pd.read_csv("screen_care.csv")
 
 FEATURES = [
     "age",
